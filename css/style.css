@@ -1,7 +1,6 @@
-* {
-box-sizing: border-box;
+*{
+    box-sizing: border-box;
 }
-
 body {
     background-color:ivory;
 }
@@ -13,14 +12,13 @@ header {
 header nav {
     
     float: right;
-   padding: 20px;
-   position: relative;
-   right: 70px;
-  top: 20%;;
-  margin-left: 160px;
-  margin-block-end: 50px;
+    padding: 26px;
+    position: relative;
+    right: 182px;
+    top: 25%;
+    margin-left: 69px;
+    margin-block-end: 50px;
   
- 
 }
 
 header img {
@@ -33,7 +31,7 @@ header img {
 
 body  article { 
   
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 body  article img {
@@ -44,6 +42,9 @@ body  article img {
     text-align: center;
     
 
+}
+#images {
+    margin-bottom: 140px;
 }
 .column {
 
@@ -70,35 +71,51 @@ margin-left: 10px;
 
   
 .lastPart {
-    margin: 25px auto;
+    margin: -110px auto;
     width:75%;
     padding:20px; 
 }
 
 .lastPart img{
  float: left;
- height: 260px;
+ height: 480px;
  width: 50%;
- padding: 0 10px 0 0 ;
+ padding: 0 30px 0 0 ;
+ margin-bottom: 30px ;
 }
 
 .lastPart p{
    text-align: justify;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-weight: bolder;
-   height: 260px;
+   height: 400px;
  width: 50%px;
+ overflow: scroll;
+ padding-right : 30px;
+ 
 
 }
 
 #button {
+    font-size: 0;
     float: right;
     margin-right: 40%;
-    margin-top: -65px;
-text-align: center;
+    margin-top: 136px;
+
+border-radius: 12px;
+padding-top:10px;
+padding-bottom: 10px;
+
 }
 
-#button:hover {
+#button :hover {
     
-    color: aqua;
+    background-color: rgb(182, 65, 65);
+}
+footer {
+    width: 100%;
+    background-color:rgb(214, 214, 200);
+    height: 116px;
+    position: relative;
+    bottom: -217px;
 }
